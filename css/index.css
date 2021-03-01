@@ -9,9 +9,8 @@
 
 .money-container{
   display: grid;
-  width: 100%;
   grid-gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 30% 30% 30%;
   overflow-x: hidden;
   position: relative;
 
@@ -132,13 +131,29 @@
 .mentor img{
   width: 95%;
 }
-/* .money-design1:nth-child(4){
-  grid-column: 1/3;
+.money-design1{
+  grid-column: 1 / 3;
+  width: 1850px;
+  margin-top: -15%;
+  margin-left: 25px;
+} 
+.money-design1 h6 {
+  background-color: rgb(61, 59, 59);
+  color: white;
+  width: 40%;
   position: relative;
-  bottom: 200px;
-
-
-} */
+  top: -6%;
+  margin-left: 0px;
+}
+.money-design1 button {
+  background-color: #ff565c;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 15px 10px 15px;
+  position: relative;
+  top: -32%;
+}
 
 
 .money-Layup button{
